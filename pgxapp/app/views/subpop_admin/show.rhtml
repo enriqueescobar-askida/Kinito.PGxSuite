@@ -1,0 +1,8 @@
+<% for column in Subpop.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @subpop.send(column.name) %>
+</p>
+<% end %>
+
+<%= link_to 'Edit', :action => 'edit', :id => @subpop %> |
+<%= link_to 'Back', :action => 'list' %>

@@ -1,0 +1,14 @@
+<% for column in Snp.content_columns %>
+ <p>
+  <b><%= column.human_name %>:</b> <%=h @snp.send(column.name) %>
+ </p>
+<% end %>
+
+<h1>Subsnps (<%= @snp.subsnps.length %>):</h1>
+ <% @snp.subsnps.each {|subsnp| %>
+  <%= subsnp.id %>
+  <%= subsnp.last_updated_time %><br/>
+ <% } %>
+
+<%= link_to 'Edit', :action => 'edit', :id => @snp %> |
+<%= link_to 'Back', :action => 'list' %>

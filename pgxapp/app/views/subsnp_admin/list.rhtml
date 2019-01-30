@@ -1,0 +1,38 @@
+<h1>SubSNPs Listing</h1>
+
+<table cellpadding="5" cellspacing="0" >
+  <tr>
+  <% for column in Subsnp.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+
+  <%
+	odd_or_even = 0
+	for subsnp in @subsnps
+		odd_or_even = 1 - odd_or_even
+  %>
+<!--% for subsnp in @subsnps %-->
+  <tr class="ListLine<%= odd_or_even %>" >
+  <% for column in Subsnp.content_columns %>
+    <td><%=h subsnp.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => subsnp %></td>
+    <!--td><%= link_to 'Edit', :action => 'edit', :id => subsnp %></td-->
+    <!--td><%= link_to 'Destroy', { :action => 'destroy', :id => subsnp }, :confirm => 'Are you sure?', :method => :post %></td-->
+  </tr>
+<% end %>
+</table>
+
+<%= if @subsnp_pages.current.previous
+		link_to("Previous page",	{ :page => @subsnp_pages.current.previous })
+	end
+%>
+<%= if @subsnp_pages.current.next
+		link_to("Next page",		{ :page => @subsnp_pages.current.next })
+	end
+%>
+		
+<br />
+
+<!--%= link_to 'New subsnp', :action => 'new' %-->

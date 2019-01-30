@@ -1,0 +1,36 @@
+<h1>SNPs </h1>
+<h2>Listing for human (<i>Homo sapiens</i> build 126)</h2>
+
+<% form_tag :action => 'search' do %>
+<p>
+<label for="snp_id">Reference SNP (refSNP):</label>
+<%= text_field 'snp', 'id'  %>
+<%= submit_tag "SearchByID" %>
+<%= @delta %>sec
+<% end %>
+
+<table>
+  <tr>
+   <% for column in Snp.content_columns %>
+    <th><%= column.human_name %></th>
+   <% end %>
+  </tr>
+  
+  <% for snp in @snps %>
+  <tr>
+  <% for column in Snp.content_columns %>
+	<td><%=h snp.send(column.name) %></td>
+  <% end %>
+	<td><%= link_to 'Show', :action => 'show', :id => snp %></td>
+	<td><%= link_to 'Edit', :action => 'edit', :id => snp %></td>
+	<td><%= link_to 'Destroy', { :action => 'destroy', :id => snp }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+  <% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @snp_pages.current.previous } if @snp_pages.current.previous %>
+<%= link_to 'Next page', { :page => @snp_pages.current.next } if @snp_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New snp', :action => 'new' %>

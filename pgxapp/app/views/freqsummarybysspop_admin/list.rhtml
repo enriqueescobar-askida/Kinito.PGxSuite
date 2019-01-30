@@ -1,0 +1,27 @@
+<h1>Listing freqsummarybysspops</h1>
+
+<table>
+  <tr>
+  <% for column in Freqsummarybysspop.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for freqsummarybysspop in @freqsummarybysspops %>
+  <tr>
+  <% for column in Freqsummarybysspop.content_columns %>
+    <td><%=h freqsummarybysspop.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => freqsummarybysspop %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => freqsummarybysspop %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => freqsummarybysspop }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @freqsummarybysspop_pages.current.previous } if @freqsummarybysspop_pages.current.previous %>
+<%= link_to 'Next page', { :page => @freqsummarybysspop_pages.current.next } if @freqsummarybysspop_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New freqsummarybysspop', :action => 'new' %>

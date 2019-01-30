@@ -1,0 +1,27 @@
+<h1>Listing populations</h1>
+
+<table>
+  <tr>
+  <% for column in Population.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for population in @populations %>
+  <tr>
+  <% for column in Population.content_columns %>
+    <td><%=h population.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => population %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => population %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => population }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @population_pages.current.previous } if @population_pages.current.previous %>
+<%= link_to 'Next page', { :page => @population_pages.current.next } if @population_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New population', :action => 'new' %>

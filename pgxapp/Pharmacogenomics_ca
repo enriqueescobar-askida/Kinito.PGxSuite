@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><head><title>Pharmacogenomics.ca :: Génome Québec &amp; Montreal Heart Institute Pharmacogenomics Centre</title>
+
+
+
+
+<meta http-equiv="Content-Language" content="en">
+<meta name="description" content="Pharmacogenomics holds the promise that drugs might one day be tailor-made for individuals and adapted to each
+person's own genetic makeup.">
+<meta name="verify-v1" content="6zT2RY9HQ9oFG8UM+j8SXw3lAEILfILWaAh11jx991I=">
+<meta name="keywords" content="pharmacogenomics,pharmacogenomic services,services pharmacogenomique,pharmacogenetics,genetic variation,drug,adverse effects,adverse reactions,drug therapy response,efficacy,toxicity,genotype,patients,service,DNA,isolation,Michael Phillips,genome,genomics,protein,proteome,proteomics,SNP,core facility,gene,McGill,universite de montreal,montreal heart institute,genome quebec,institut de cardiologie de montreal,innovation,genotyping,services,genotype,sequencing services,base,ADN,oligo,probe,marker,sequence,HapMap,haplotype,SNP,high throughput,Orchid,Illumina,PCR,experiment,design,research,polymorphism,primer,analysis,mass spectrometry,pharmaceuticals">
+<link rel="shortcut icon" href="http://www.pharmacogenomics.ca/pgxstatic/icons/favicon.ico">
+<link rel="icon" href="http://www.pharmacogenomics.ca/pgxstatic/icons/favicon.ico">
+<link rel="stylesheet" type="text/css" href="Pharmacogenomics_ca_files/three.css">
+<script src="Pharmacogenomics_ca_files/top_menu.js" type="text/javascript"></script>
+<script src="Pharmacogenomics_ca_files/dhtml.js" type="text/javascript"></script>
+<script src="Pharmacogenomics_ca_files/prototype.js" type="text/javascript"></script></head><body>
+<div id="container-page">
+		<div id="top-head">
+		<div style="display: inline; float: left;">
+			<a class="plain" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/site_map.tmpl.html">Site Map</a>
+			<span class="white-bar">&nbsp;|&nbsp;</span>
+			<a class="plain" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/faq.tmpl.html">FAQ</a>
+			<span class="white-bar">&nbsp;|&nbsp;</span>
+			<a class="plain" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/contact.tmpl.html">Contact Us</a>
+		</div>
+		<div style="display: inline;">
+			<a class="plain" href="http://www.pharmacogenomics.ca/pgx/login.cgi">Login</a>
+			<span class="white-bar">&nbsp;|&nbsp;</span>
+			<!-- <a href="/pgx/translate.cgi">Fran&ccedil;ais</a> -->
+			<a class="plain" onclick="alert('Disponible bientot.');" href="#">Français</a>
+			<span class="white-bar">&nbsp;|&nbsp;</span>
+			<!-- SiteSearch Google -->
+			<form method="get" action="http://www.google.com/search">
+			<input name="ie" value="UTF-8" type="hidden">
+			<input name="oe" value="UTF-8" type="hidden">
+			<input style="border: medium none ; padding: 0px; width: 129px; height: 17px; margin-bottom: 1px; font-size: 10pt; color: rgb(11, 23, 97);" name="q" size="15" maxlength="255" value="" type="text">
+			<input style="font-size: 9pt; height: 20px;" name="btnG" value="Search" type="submit">
+			<input name="domains" value="www.pharmacogenomics.ca" type="hidden">
+			<span style="display: none;"><input name="sitesearch" value="" type="radio"> WWW <input name="sitesearch" value="www.pharmacogenomics.ca" checked="checked" type="radio"></span>
+			</form>
+			<!-- SiteSearch Google -->
+		</div>
+	</div>
+	<div id="container-head">
+		<div id="head-logo-title">
+			<a href="http://www.pharmacogenomics.ca/pgx/index.cgi"><img class="logo" title="PGx Centre Logo" alt="PGx Centre Logo" src="Pharmacogenomics_ca_files/pgx_logo_en.png" border="0"></a>
+		</div>
+	</div>
+
+		<div id="top-nav">
+		<ul id="nav">
+			<li><a href="http://www.pharmacogenomics.ca/pgx/index.cgi">Home</a></li>
+			<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/overview.tmpl.html">Services</a>
+				<ul>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/forms.tmpl.html">Service Forms</a></li>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/biobanking.tmpl.html">Biobanking</a></li>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/glp_dna_isolation.tmpl.html">GLP DNA Isolation</a></li>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/clinical_genotyping.tmpl.html">Clinical genotyping</a></li>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/glp_compliant_assays.tmpl.html">GLP Compliant Assays</a></li>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/assay_development.tmpl.html">Assay Development</a></li>
+				</ul>
+			</li>
+			<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/projects/overview.tmpl.html">Projects</a>
+				<ul>
+				<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/projects/overview.tmpl.html">Research</a></li>
+				<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/projects/pi.tmpl.html">Principal Investigators</a></li>
+				<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/projects/drug_efficacy_and_toxicity_in_cvd.tmpl.html">Pharmacogenomics of CVD Drug Toxicity</a></li>
+				</ul>
+			</li>
+			<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/related_links.tmpl.html">Related Links</a></li>
+			<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/in_the_news.tmpl.html">News</a></li>
+			<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/about/overview.tmpl.html">About Us</a>
+				<ul class="last">
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/about/team.tmpl.html">Our Team</a></li>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/about/beaulieu-saucier.tmpl.html">Beaulieu-Saucier Centre</a></li>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/about/careers.tmpl.html">Careers</a></li>
+					<li><a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/about/social.tmpl.html">Social Aspects</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+		<div id="container-content">
+		<div id="top-left">
+			<a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/overview.tmpl.html"><img title="Services" alt="Pharmacogenomics Services" src="Pharmacogenomics_ca_files/pills_250x170.png"></a>
+			<!-- The pill image above is copyright (c) Monika Adamczyk. Image from BigStockPhoto.com -->
+		</div>
+		<div id="top-right">
+			<p><span class="pharm-top"><a class="plain" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/faq.tmpl.html">Pharmacogenomics</a></span>
+			holds the promise that drugs might one day be tailor-made for individuals and adapted to each<br>person's own genetic makeup.</p>
+			<br>
+			<p>Our mission is to realize that promise.</p>
+		</div>
+		<div id="content-home"> 
+			<div>
+				<h2><a class="plain" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/overview.tmpl.html">Services</a></h2>
+			</div>
+			<a href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/about/beaulieu-saucier.tmpl.html"><img style="float: right;" title="Beaulieu Saucier Centre" alt="Beaulieu Saucier Centre" src="Pharmacogenomics_ca_files/beaulieu-saucier-small.png"></a>
+			<ul>
+				<li><a class="mission" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/glp_dna_isolation.tmpl.html">GLP DNA Isolation</a></li>
+				<li><a class="mission" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/biobanking.tmpl.html">DNA Bio-banking</a></li>
+				<li><a class="mission" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/clinical_genotyping.tmpl.html">Clinical genotyping</a></li>
+				<li><a class="mission" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/glp_compliant_assays.tmpl.html">GLP Compliant Assays</a></li>
+				<li><a class="mission" href="http://www.pharmacogenomics.ca/pgx/show.cgi?page=/services/assay_development.tmpl.html">Assay Development</a></li>
+			</ul>
+		</div>
+	</div>
+
+		<div id="container-foot">
+		<a class="footer" style="margin-right: 150px;" target="_blank" href="http://www.genomequebec.com/home.asp?l=e"><img class="footer" title="Genome Quebec" alt="Genome Quebec" src="Pharmacogenomics_ca_files/gq-logo-white.png" height="36" width="102"></a>
+		<a class="footer" style="margin-right: 150px;" target="_blank" href="http://www.icm-mhi.org/en/index.html"><img class="footer" title="Montreal Heart Institute" alt="Montreal Heart Institute" src="Pharmacogenomics_ca_files/icm-mhi-logo.png" height="36" width="108"></a>
+		<a class="footer" target="_blank" href="http://www.umontreal.ca/english/"><img class="footer" title="Université de Montréal" alt="Université de Montréal" src="Pharmacogenomics_ca_files/udem-logo-white.png" height="36" width="93"></a>
+	</div>
+
+</div>
+<div class="copyright">© Copyright 2006 Pharmacogenomics Centre. All rights reserved.</div>
+<script src="Pharmacogenomics_ca_files/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-851317-1";
+urchinTracker();
+</script>
+</body></html>

@@ -1,0 +1,27 @@
+<h1>Listing subpopalleles</h1>
+
+<table>
+  <tr>
+  <% for column in Subpopallele.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for subpopallele in @subpopalleles %>
+  <tr>
+  <% for column in Subpopallele.content_columns %>
+    <td><%=h subpopallele.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => subpopallele %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => subpopallele %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => subpopallele }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @subpopallele_pages.current.previous } if @subpopallele_pages.current.previous %>
+<%= link_to 'Next page', { :page => @subpopallele_pages.current.next } if @subpopallele_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New subpopallele', :action => 'new' %>

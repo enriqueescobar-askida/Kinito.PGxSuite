@@ -1,0 +1,2 @@
+module SnpAdminHelper
+end

@@ -1,0 +1,450 @@
+/* General styles */
+
+body {
+  margin:0;
+  padding:0;
+  font-family:Verdana, Arial, Hevetica, sans-serif;
+}
+
+img {
+  border:0;
+  vertical-align: bottom;
+}
+
+/* Header */
+#header {
+  height:140px;
+  background:#ffffff url(../images/top_leaves.jpg) top right no-repeat;
+}
+
+#arblogo {
+  position:absolute;
+  top:0;
+  left:0;
+  height:70px;
+  padding-top:20px;
+  padding-left:240px;
+  color:rgb(29,80,109);
+  background:transparent url(../images/logoARBO.jpg) no-repeat;
+}
+
+#partners {
+  position:absolute;
+  top:80px;
+  right:0px;
+  padding:5px 5px;
+}
+
+/* Content */
+#content {
+  position:relative;
+  margin:0 5px 5px 170px;
+  padding:0px;
+}
+
+#content h1 {
+  color:rgb(97,144,128);
+  font-weight:bold;
+  font-size:14px;
+}
+
+#content h1 a {
+  color:rgb(97,144,128);
+}
+
+#content h1.title {
+  color:rgb(29,80,109);
+  font-weight:bold;
+  font-size:18px;
+  margin:0px;
+  padding:0;
+  text-align:left;
+  border-bottom:1px solid rgb(97,144,128);
+}
+
+#content h1.title a {
+  display:none;
+}
+
+#content h2 {
+  background:transparent;
+  color:rgb(97,144,128);
+  line-height:130%;
+  margin:0;
+  padding:0;
+  border-bottom:1px solid rgb(97,144,128);
+}
+
+#content h3 {
+  background:transparent;
+  color:#222;
+  line-height:130%;
+  margin:10px 0 0;
+  padding:0;
+}
+
+#content h4 {
+  background:transparent;
+  color:rgb(97,144,128);
+  font-weight:bold;
+  font-style:italic;
+  line-height:130%;
+  margin:5px 0 0;
+  padding:0;
+}
+
+#content p, #content li, #content h5 {
+  color:#444;
+  background:transparent;
+  text-align:justify;
+  line-height:150%;
+}
+
+#content h5 {
+  font-weight:bold;
+}
+
+#content a {
+  background:transparent;
+  color:rgb(29,80,109);
+  text-decoration:underline;
+}
+
+#content a:hover {
+  background:transparent;
+  color:rgb(97,144,128);
+}
+
+#notice {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  margin-top: 10px;
+  padding: 1px;
+  width: 560px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+  background: bisque;
+  text-align: left;
+}
+
+.required {
+  color: red;
+}
+
+p.copyright {
+  font-family:Verdana, Arial, Hevetica, sans-serif;
+  color:#aaa;
+  background:transparent;
+  text-align:center;
+  padding:5px 0 0;
+  margin-right:5px;
+  margin-bottom:5px;
+  margin-left:170px;
+  border-top:1px solid rgb(97,144,128);
+}
+
+p.copyright a {
+  color:#aaa;
+  background:transparent;
+}
+
+p.copyright a:hover {
+  color:#666;
+  background:transparent;
+}
+
+ul.spaced li {
+  margin:5px 0;
+}
+
+/*** 
+*  Styles du menu 
+***/
+
+/** Premier niveau **/
+ul#menu {
+  position:absolute;
+  top:140px;
+  left:0;
+  margin:0;
+  padding:0;
+  width:130px;
+  color:rgb(29,80,109);
+}
+
+ul#menu li {
+  background:#fff;
+  list-style:none;
+  padding:0;
+  margin:0 0 6px 0;
+  text-align:left;
+}
+
+ul#menu li.dropdown a {
+  background:#fff no-repeat url(../images/arrowr.jpg) 100% 100%;
+}
+
+ul#menu li.dropdown a:hover {
+  color:rgb(97,144,128);
+  background:#fff no-repeat url(../images/arrowd.jpg) 100% 100%;
+  text-decoration:none;
+}
+
+ul#menu li a {
+  font-family:Arial, Helvetica, Verdana, sans-serif;
+  font-weight:bold;
+  font-size:12px;
+  text-decoration:none;
+  color:rgb(29,80,109);
+  background:#fff no-repeat url(../images/arrowr.jpg) 100% 100%;
+  display:block;
+  padding:4px 20px 2px 13px;
+  margin:0;
+  width:130px;
+  border-top:1px solid rgb(96,144,128);
+  border-right:1px solid rgb(96,144,128);
+  border-bottom:1px solid rgb(96,144,128);
+}
+
+ul#menu li a:hover {
+  color:rgb(97,144,128);
+  background:#fff no-repeat url(../images/arrowra.jpg) 100% 100%;
+  text-decoration:none;
+}
+
+ul#menu li#active a {
+  color:rgb(97,144,128);
+  background:#fff no-repeat url(../images/arrowra.jpg) 100% 100%;
+}
+
+ul#menu li.dropdown#active a {
+  color:rgb(97,144,128);
+  background:#fff no-repeat url(../images/arrowd.jpg) 100% 100%;
+}
+
+/** Deuxieme niveau **/
+ul#menu li ul {
+  list-style:none;
+  margin: 0 0 3px 0;
+  padding:0px;
+  background:#fff;
+}
+
+
+ul#menu li#active ul li {
+  margin:0px;
+  padding:0px;
+}
+
+ul#menu li.dropdown#active ul li a {
+  background-image:none;
+  text-decoration:none;
+  border:none;
+  color:rgb(29,80,109);
+  display:block;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:10px;
+  cursor:pointer;
+  width:auto;	
+  padding:3px 0 3px 15px;
+  margin:0px;
+  /*border:1px solid red;*/
+}
+
+ul#menu li.dropdown#active ul li a:hover {
+  background-image:none;
+  color:rgb(97,144,128);
+}
+
+/***
+*  Styles for flexible content
+***/
+#content div.fc_arbobox {
+  border:1px solid #8E8E8E;
+  padding:0px;
+  margin:0px 0px 8px;
+}
+
+#content div.fc_arbobox_title {
+  color:#000000;
+  padding-left:10px;
+  padding-top:5px;
+  font-weight:bold;
+  font-size:small;
+  height:27px;
+  background-image: url(../images/header_accueil_back.gif);
+  background-repeat: repeat-x;
+}
+
+#content div.fc_arbobox_content table tr td p {
+  padding:0px;
+  margin:0px;
+  text-align:left;
+}
+
+#top_links, #content div.fc_arbobox_content p {
+  font-size:10px;
+}
+
+/***
+* Tables
+***/
+
+table.restab-no-border {
+  border-top:0px;
+  border-left:0px;
+  border-spacing:0;
+  empty-cells:show;
+}
+
+table.restab, table.restab-left {
+  border-top:1px solid #000;
+  border-left:1px solid #000;
+  border-spacing:0;
+  empty-cells:show;
+}
+
+table.restab tr, table.restab-left tr, table.restab-no-border tr {
+  margin:0;
+  padding:0;
+}
+
+table.restab tr.odd, table.restab-left tr.odd {
+  background-color:whitesmoke;
+}
+
+table.restab th, table.restab-left th {
+  vertical-align:top;
+  font-weight:bold;
+  color:#000;
+  background:#eee;
+  border-bottom:1px solid #000;
+  border-right:1px solid #000;
+  margin:0;
+  padding:2px 5px;
+  white-space:nowrap;
+}
+
+#content table.restab th a, #content table.restab-left th a {
+  color:#000;
+}
+
+table.restab th, table.restab td {
+  text-align:center;
+}
+
+table.restab-left th, table.restab-left td, table.restab-no-border th, table.restab-no-border td {
+  text-align:left;
+}
+
+table.restab-no-border th, table.restab-no-border td {
+  padding:0px 10px;
+}
+
+table.restab td, table.restab-left td {
+  height:30px;
+  color:#000;
+  border-bottom:1px solid #000;
+  border-right:1px solid #000;
+  margin:0;
+  padding:2px 5px;
+  white-space:nowrap;
+}
+
+table.restab-no-border td {
+  height:16px;
+  color:#000;
+  border-bottom:0px;
+  border-right:0px;
+  margin:0;
+  white-space:nowrap;
+}
+
+table.restab td.num, table.restab-left .num {
+  text-align:right;
+}
+
+table.restab td.total-num, table.restab-left .total-num {
+  text-align:right;
+  font-weight:bold;
+  border-top:3px solid #000;
+}
+
+table.restab td.boolean, table.restab-left .boolean {
+  text-align:center;
+}
+table.restab td.plate, table.restab-left .plate {
+  vertical-align:top;
+}
+
+/***
+* Set font sizes
+***/
+
+#content p,
+#content div,
+#content li,
+#content h4,
+#content h5,
+#content table.lynx,
+table.restab th,
+table.restab td,
+table.restab-left th,
+table.restab-left td,
+table.restab-no-border th,
+table.restab-no-border td,
+.teeny {
+        font-size:11px;
+}
+
+#content li {
+  list-style:none;
+}
+
+p.copyright, table.inner td {
+  font-size:10px;
+}
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: bisque;
+  display: table;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+}
+
+#ErrorExplanation {
+  width: 400px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: bisque;
+}
+
+#ErrorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#ErrorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#ErrorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}

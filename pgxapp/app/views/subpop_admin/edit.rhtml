@@ -1,0 +1,9 @@
+<h1>Editing subpop</h1>
+
+<% form_tag :action => 'update', :id => @subpop do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Edit' %>
+<% end %>
+
+<%= link_to 'Show', :action => 'show', :id => @subpop %> |
+<%= link_to 'Back', :action => 'list' %>

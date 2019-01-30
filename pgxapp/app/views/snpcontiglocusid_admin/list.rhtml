@@ -1,0 +1,27 @@
+<h1>Listing snpcontiglocusids</h1>
+
+<table>
+  <tr>
+  <% for column in Snpcontiglocusid.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for snpcontiglocusid in @snpcontiglocusids %>
+  <tr>
+  <% for column in Snpcontiglocusid.content_columns %>
+    <td><%=h snpcontiglocusid.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => snpcontiglocusid %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => snpcontiglocusid %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => snpcontiglocusid }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @snpcontiglocusid_pages.current.previous } if @snpcontiglocusid_pages.current.previous %>
+<%= link_to 'Next page', { :page => @snpcontiglocusid_pages.current.next } if @snpcontiglocusid_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New snpcontiglocusid', :action => 'new' %>

@@ -1,0 +1,8 @@
+<% for column in Snpcontiglocusid.content_columns %>
+<p>
+  <b><%= column.human_name %>:</b> <%=h @snpcontiglocusid.send(column.name) %>
+</p>
+<% end %>
+
+<%= link_to 'Edit', :action => 'edit', :id => @snpcontiglocusid %> |
+<%= link_to 'Back', :action => 'list' %>

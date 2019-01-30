@@ -1,0 +1,8 @@
+<h1>SNPs search</h1>
+
+<% form_tag :action => 'search' do %>
+	<p><label for="snp_search">input snp id</label><br/>
+	<%= text_field_tag 'snpquery'  %></p>
+	<%= select_tag "querytype", "<option value='snp'>#RS id</option><option value='subsnp'>#SS id</option>" %>
+  <%= submit_tag "Search" %>
+<% end %>

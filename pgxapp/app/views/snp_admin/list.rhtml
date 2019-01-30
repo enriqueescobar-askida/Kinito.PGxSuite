@@ -1,0 +1,38 @@
+<h1>SNPs Listing</h1>
+
+<table cellpadding="5" cellspacing="0" >
+	<tr>
+	<% for column in Snp.content_columns %>
+		<th><%= column.human_name %></th>
+	<% end %>
+	</tr>
+	
+	<%
+	odd_or_even = 0
+	for snp in @snps
+		odd_or_even = 1 - odd_or_even
+	%>
+	<!--% for snp in @snps %-->
+		<tr class="ListLine<%= odd_or_even %>" >
+		<% for column in Snp.content_columns %>
+			<td><%=h snp.send(column.name) %></td>
+		<% end %>
+			<td><%= link_to 'Show', :action => 'show', :id => snp %></td>
+			<!--td><%= link_to 'Edit', :action => 'edit', :id => snp %></td-->
+			<!--td><%= link_to 'Destroy', { :action => 'destroy', :id => snp }, :confirm => 'Are you sure?', :method => :post %></td-->
+		</tr>
+	<% end %>
+</table>
+
+<%= if @snp_pages.current.previous
+		link_to("Previous page",	{ :page => @snp_pages.current.previous })
+	end
+%>
+<%= if @snp_pages.current.next
+		link_to("Next page",		{ :page => @snp_pages.current.next })
+	end
+%>
+
+<br />
+
+<!--%= link_to 'New snp', :action => 'new' %-->

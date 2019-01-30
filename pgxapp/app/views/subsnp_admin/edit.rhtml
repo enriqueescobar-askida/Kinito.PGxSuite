@@ -1,0 +1,9 @@
+<h1>Editing subsnp</h1>
+
+<% form_tag :action => 'update', :id => @subsnp do %>
+  <%= render :partial => 'form' %>
+  <%= submit_tag 'Edit' %>
+<% end %>
+
+<%= link_to 'Show', :action => 'show', :id => @subsnp %> |
+<%= link_to 'Back', :action => 'list' %>

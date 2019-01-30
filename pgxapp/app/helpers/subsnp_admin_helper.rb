@@ -1,0 +1,2 @@
+module SubsnpAdminHelper
+end
